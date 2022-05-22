@@ -23,14 +23,14 @@ namespace ConsoleApp1
             Console.WriteLine("Hello " + name);
             Console.ReadLine();
 
-            Book book1 = new Book("The Hitchhiker's Guide To The Galaxy", "Douglas Adams",571);
+            Book book1 = new Book("The Hitchhiker's Guide To The Galaxy", "Douglas Adams",571, "PG-13");
          
-            Book book2 = new Book("The Bear Comes Home", "Rafi Zaboor",298);
+            Book book2 = new Book("The Bear Comes Home", "Rafi Zaboor",298, "NR");
 
             Console.WriteLine(book1.IsChunky());
             Console.WriteLine(book2.IsChunky());
 
-            Console.WriteLine(book1.title);
+            Console.WriteLine(book1.Rating);
             Console.ReadLine();
         }
     }
